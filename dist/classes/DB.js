@@ -8,14 +8,7 @@ const util_1 = __importDefault(require("util"));
 class DB {
     constructor() {
         this.DBNa = mysql2_1.default.createPool({
-            host: 'priceless-meitner.74-208-244-104.plesk.page',
-            user: 'mascotas',
-            password: 'xXp3p77%',
-            port: 3306,
-            connectionLimit: 1000,
-            connectTimeout: 60 * 60 * 1000,
-            queueLimit: 60 * 60 * 1000,
-            database: 'admin_likenuuk'
+          
         });
         this.connection();
     }
